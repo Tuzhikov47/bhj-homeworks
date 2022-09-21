@@ -39,9 +39,8 @@ function sendMessage(){
       </div>  
       `; 
     };
+    this.value = "";
 };
 
 chat.addEventListener('click', openChat);
 inputChat.addEventListener('change', sendMessage);
-
-
